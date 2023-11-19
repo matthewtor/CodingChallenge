@@ -1,0 +1,94 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px; 
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #3366ff, rgb(165, 30, 136),#3366ff); 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  border: 5px solid #ffffff; /* Add a border to create the box */
+  border-radius: 8px; /* Optional: add rounded corners */
+  background: linear-gradient(45deg, #3366ff, #ff6699, #ffcc00);
+  backdrop-filter: blur(30px); /* Add a background color for the container */
+}
+
+h1 {
+  color: #040000;
+}
+
+
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.country-info img {
+  width: 150px; 
+  height: auto;
+}
+
+.country-input {
+  text-align: center;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.form-field {
+  padding: 10px; 
+  margin-right: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 25px; 
+}
+
+.submit-button {
+  padding: 12px 24px; 
+  font-size: 16px; 
+  background-color: #3366ff; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  margin-bottom: 10px;
+}
+
+.submit-button:hover {
+  background-color: #2554b8;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.country-input ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-input li {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+
+
