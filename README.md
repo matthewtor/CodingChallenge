@@ -3,3 +3,5 @@ Example file structure: but
 ■ frontend (inside the src)
 ■ backend/
 ■ README.md
+
+Mattia Torcasio
