@@ -4,4 +4,6 @@ Example file structure: but
 ■ backend/
 ■ README.md
 
+there is also another read me file describing how to set up, start & use application.
+
 Mattia Torcasio
